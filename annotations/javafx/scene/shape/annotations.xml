@@ -1,0 +1,8 @@
+<root>
+    <item name='javafx.scene.shape.Rectangle javafx.beans.property.DoubleProperty heightProperty()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javafx.scene.shape.Rectangle javafx.beans.property.DoubleProperty widthProperty()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,11 @@
+<root>
+    <item name='javafx.scene.Group javafx.collections.ObservableList&lt;javafx.scene.Node&gt; getChildren()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javafx.scene.Node javafx.beans.property.DoubleProperty translateXProperty()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='javafx.scene.Node javafx.beans.property.DoubleProperty translateYProperty()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

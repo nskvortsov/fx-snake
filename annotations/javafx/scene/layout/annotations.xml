@@ -1,0 +1,5 @@
+<root>
+    <item name='javafx.scene.layout.Pane javafx.collections.ObservableList&lt;javafx.scene.Node&gt; getChildren()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

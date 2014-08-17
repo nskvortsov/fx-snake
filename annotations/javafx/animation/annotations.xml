@@ -1,0 +1,5 @@
+<root>
+    <item name='javafx.animation.Timeline javafx.collections.ObservableList&lt;javafx.animation.KeyFrame&gt; getKeyFrames()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

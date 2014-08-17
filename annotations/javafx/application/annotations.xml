@@ -1,0 +1,13 @@
+<root>
+    <item name='javafx.application.Application void launch(java.lang.Class&lt;? extends javafx.application.Application&gt;, java.lang.String...)'>
+        <annotation name='kotlin.jvm.KotlinSignature'>
+            <val name="value"
+                 val="&quot;fun launch(p0: Class&lt;out Application?&gt;?, vararg p1: String?): Unit&quot;"/>
+        </annotation>
+    </item>
+    <item name='javafx.application.Application void start(javafx.stage.Stage)'>
+        <annotation name='kotlin.jvm.KotlinSignature'>
+            <val name="value" val="&quot;fun start(p0: Stage): Unit&quot;"/>
+        </annotation>
+    </item>
+</root>
