@@ -29,7 +29,17 @@ changeBuildType("a2c5c2da-0622-4241-9552-40c67e6df20f") {
         }
     }
     steps {
-        items.removeAt(1)
-        items.removeAt(1)
+        insert(1) {
+            step {
+                name = "testUpload"
+                type = "smb2-deploy-runner"
+                param("jetbrains.buildServer.deployer.username", """LABS\Nikita.Skvortsov""")
+                param("jetbrains.buildServer.deployer.sourcePath", "target/*.zip")
+                param("jetbrains.buildServer.deployer.targetUrl", """\\unit-1101\myShare\mavenResults""")
+                param("secure:jetbrains.buildServer.deployer.password", "credentialsJSON:19391a2d-b113-4130-8ba2-c518c9c8cce4")
+            }
+        }
+        items.removeAt(2)
+        items.removeAt(2)
     }
 }
