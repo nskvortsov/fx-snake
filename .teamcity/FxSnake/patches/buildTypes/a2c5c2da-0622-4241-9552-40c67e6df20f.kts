@@ -30,5 +30,6 @@ changeBuildType("a2c5c2da-0622-4241-9552-40c67e6df20f") {
     }
     steps {
         items.removeAt(1)
+        items.removeAt(1)
     }
 }
