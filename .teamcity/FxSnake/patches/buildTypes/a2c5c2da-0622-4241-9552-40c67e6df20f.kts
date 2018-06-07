@@ -39,7 +39,7 @@ changeBuildType("a2c5c2da-0622-4241-9552-40c67e6df20f") {
                 type = "smb-deploy-runner"
                 param("jetbrains.buildServer.deployer.username", "user")
                 param("jetbrains.buildServer.deployer.sourcePath", "pom.xml")
-                param("jetbrains.buildServer.deployer.targetUrl", """\\172.20.240.211\public\kit_test""")
+                param("jetbrains.buildServer.deployer.targetUrl", """\\172.20.240.211\public""")
                 param("secure:jetbrains.buildServer.deployer.password", "credentialsJSON:c63480c2-d262-4570-ab06-657906a6ea1f")
             }
         }
