@@ -1,6 +1,7 @@
 package FxSnake.patches.buildTypes
 
 import jetbrains.buildServer.configs.kotlin.v2017_2.*
+import jetbrains.buildServer.configs.kotlin.v2017_2.buildSteps.MavenBuildStep
 import jetbrains.buildServer.configs.kotlin.v2017_2.buildSteps.ant
 import jetbrains.buildServer.configs.kotlin.v2017_2.buildSteps.maven
 import jetbrains.buildServer.configs.kotlin.v2017_2.ui.*
@@ -29,6 +30,9 @@ changeBuildType("a2c5c2da-0622-4241-9552-40c67e6df20f") {
         }
     }
     steps {
+        update<MavenBuildStep>(0) {
+            enabled = false
+        }
         insert(1) {
             step {
                 name = "testUpload"
